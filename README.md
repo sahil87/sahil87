@@ -1,16 +1,38 @@
-## Hi there 👋
+## Hi 👋 — I'm Sahil
 
-<!--
-**sahil87/sahil87** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build small, focused tools for AI-assisted development. A few of them I use daily, all open source.
 
-Here are some ideas to get you started:
+This page is the canonical home for everything — also reachable at [ai.shll.in](https://ai.shll.in).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### The AI dev toolkit
+
+Spec-driven workflow, session orchestration, and cost tracking. Install everything in one go via Homebrew:
+
+```bash
+brew install sahil87/tap/ai
+```
+
+| Tool | What it does |
+|------|--------------|
+| [**fab-kit**](https://github.com/sahil87/fab-kit) | Structured, spec-driven development workflow for AI coding agents |
+| [**run-kit**](https://github.com/sahil87/run-kit) | Web-based tmux orchestration dashboard for long-running agent tasks |
+| [**tu**](https://github.com/sahil87/tu) | AI coding assistant cost tracking CLI |
+
+### CLIs
+
+| Tool | What it does |
+|------|--------------|
+| [**hop**](https://github.com/sahil87/hop) | Quick repo navigation and operations from the command line |
+| [**wt**](https://github.com/sahil87/wt) | Git worktree management CLI |
+| [**idea**](https://github.com/sahil87/idea) | Capture and manage ideas from the command line |
+
+### Install
+
+Most tools are available through my Homebrew tap:
+
+```bash
+brew tap sahil87/tap
+brew install <formula>
+```
+
+See [`sahil87/homebrew-tap`](https://github.com/sahil87/homebrew-tap) for the full formula list.
