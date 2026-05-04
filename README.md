@@ -4,13 +4,15 @@ I build small, focused tools for AI-assisted development. A few of them I use da
 
 This page is the canonical home for everything — also reachable at [ai.shll.in](https://ai.shll.in).
 
-### The AI dev toolkit
+### Install everything
 
-Spec-driven workflow, session orchestration, and cost tracking. Install everything in one go via Homebrew:
+The full toolkit — spec-driven workflow, session orchestration, cost tracking, and repo navigation — in one Homebrew command:
 
 ```bash
-brew install sahil87/tap/ai
+brew install sahil87/tap/all
 ```
+
+### The AI dev toolkit
 
 | Tool | What it does |
 |------|--------------|
@@ -26,9 +28,9 @@ brew install sahil87/tap/ai
 | [**wt**](https://github.com/sahil87/wt) | Git worktree management CLI |
 | [**idea**](https://github.com/sahil87/idea) | Capture and manage ideas from the command line |
 
-### Install
+### Install individually
 
-Most tools are available through my Homebrew tap:
+Or pick the ones you want from my Homebrew tap:
 
 ```bash
 brew tap sahil87/tap
