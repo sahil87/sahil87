@@ -18,10 +18,10 @@ brew install sahil87/tap/all
 |------|--------------|
 | [**fab-kit**](https://github.com/sahil87/fab-kit) | Structured, spec-driven development workflow for AI coding agents |
 | [**run-kit**](https://github.com/sahil87/run-kit) | Web-based tmux orchestration dashboard for long-running agent tasks |
-| [**tu**](https://github.com/sahil87/tu) | AI coding assistant cost tracking CLI |
+| [**tu**](https://github.com/sahil87/tu) | Cost tracking for Claude Code, Codex, and OpenCode |
 | [**hop**](https://github.com/sahil87/hop) | Quick repo navigation and operations from the command line |
-| [**wt**](https://github.com/sahil87/wt) | Git worktree management CLI |
-| [**idea**](https://github.com/sahil87/idea) | Capture and manage ideas from the command line |
+| [**wt**](https://github.com/sahil87/wt) | Git worktree CLI for parallel-edit workflows |
+| [**idea**](https://github.com/sahil87/idea) | Worktree-aware idea capture and backlog tracker |
 
 ### Install individually
 
