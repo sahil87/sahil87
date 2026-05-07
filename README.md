@@ -4,6 +4,10 @@ Building open-source AI tooling for developers and designers — small, focused 
 
 This page ([ai.shll.in](https://ai.shll.in)) is the canonical home for everything below.
 
+### Community
+
+Questions, feature requests, or just want to chat about AI dev tooling? **[Join the Discord](https://discord.gg/32XHh5mJYn)** — that's where I answer queries, share what I'm building, and discuss with people using these tools.
+
 ### Install everything
 
 The full toolkit — spec-driven workflow, session orchestration, cost tracking, and repo navigation — in one Homebrew command:
@@ -36,4 +40,4 @@ See [`sahil87/homebrew-tap`](https://github.com/sahil87/homebrew-tap) for the fu
 
 ### Find me
 
-[LinkedIn](https://in.linkedin.com/in/ahujasahil) · [X](https://x.com/_sahilahuja) · [ai.shll.in](https://ai.shll.in)
+[LinkedIn](https://in.linkedin.com/in/ahujasahil) · [X](https://x.com/_sahilahuja) · [Discord](https://discord.gg/32XHh5mJYn) · [ai.shll.in](https://ai.shll.in)
