@@ -16,6 +16,14 @@ The full toolkit — spec-driven workflow, session orchestration, cost tracking,
 brew install sahil87/tap/all
 ```
 
+This includes [**shll**](https://github.com/sahil87/shll), the meta-CLI you'll use day-to-day:
+
+```bash
+shll update                    # brew upgrade every installed sahil87 tool
+eval "$(shll shell-init zsh)"  # one shell-init line for the whole toolkit
+shll version                   # paste-friendly version table for bug reports
+```
+
 ### Tools
 
 | Tool | What it does |
@@ -26,6 +34,7 @@ brew install sahil87/tap/all
 | [**hop**](https://github.com/sahil87/hop) | Quick repo navigation and operations from the command line |
 | [**wt**](https://github.com/sahil87/wt) | Git worktree CLI for parallel-edit workflows |
 | [**idea**](https://github.com/sahil87/idea) | Worktree-aware idea capture and backlog tracker |
+| [**shll**](https://github.com/sahil87/shll) | Meta-CLI that composes across the toolkit (update, shell-init, version) |
 
 ### Install individually
 
