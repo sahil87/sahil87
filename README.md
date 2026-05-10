@@ -29,13 +29,13 @@ See the [shll README](https://github.com/sahil87/shll) for the full command surf
 
 | Tool | What it does |
 |------|--------------|
-| [**fab-kit**](https://github.com/sahil87/fab-kit) | Structured, spec-driven development workflow for AI coding agents |
-| [**run-kit**](https://github.com/sahil87/run-kit) | Web-based tmux orchestration dashboard for long-running agent tasks |
-| [**tu**](https://github.com/sahil87/tu) | Cost tracking for Claude Code, Codex, and OpenCode |
-| [**hop**](https://github.com/sahil87/hop) | Quick repo navigation and operations from the command line |
-| [**wt**](https://github.com/sahil87/wt) | Git worktree CLI for parallel-edit workflows |
-| [**idea**](https://github.com/sahil87/idea) | Worktree-aware idea capture and backlog tracker |
-| [**shll**](https://github.com/sahil87/shll) | Meta-CLI that composes across the toolkit (install, update, shell-init, shell-install, version) |
+| [**fab-kit**](https://github.com/sahil87/fab-kit) | Spec-driven workflow for AI coding agents |
+| [**run-kit**](https://github.com/sahil87/run-kit) | Tmux dashboard for long-running agent sessions |
+| [**tu**](https://github.com/sahil87/tu) | Cost tracking for Claude Code, Codex, OpenCode |
+| [**hop**](https://github.com/sahil87/hop) | Fast repo navigation from the command line |
+| [**wt**](https://github.com/sahil87/wt) | Git worktree CLI for parallel edits |
+| [**idea**](https://github.com/sahil87/idea) | Worktree-aware idea capture and backlog |
+| [**shll**](https://github.com/sahil87/shll) | Meta-CLI for the toolkit — install, update, shell-init, shell-install, version |
 
 ### Install individually
 
