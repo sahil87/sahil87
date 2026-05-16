@@ -24,18 +24,49 @@ Later, `shll update` upgrades every installed tool in one go. See the [shll READ
 
 ### How the tools fit together
 
-The toolkit is a workflow, not a buffet — though each tool stands alone.
+One idea fans out into many parallel agent sessions — then converges into a single dashboard you can watch from your phone.
 
+```mermaid
+flowchart LR
+    idea["💡 idea<br/><sub>backlog</sub>"] --> fab["🛠 fab-kit<br/><sub>spec + plan</sub>"]
+    fab --> wt1["🌿 wt #1"]
+    fab --> wt2["🌿 wt #2"]
+    fab --> wt3["🌿 wt #3"]
+    wt1 --> a1["🤖 agent"]
+    wt2 --> a2["🤖 agent"]
+    wt3 --> a3["🤖 agent"]
+    a1 --> rk["📊 run-kit<br/><sub>tmux dashboard</sub>"]
+    a2 --> rk
+    a3 --> rk
+    rk --> ship(["🚢 ship"])
+
+    classDef tool fill:#1f2937,stroke:#60a5fa,color:#f3f4f6;
+    classDef agent fill:#064e3b,stroke:#34d399,color:#ecfdf5;
+    classDef ship fill:#7c2d12,stroke:#fb923c,color:#ffedd5;
+    class idea,fab,wt1,wt2,wt3,rk tool;
+    class a1,a2,a3 agent;
+    class ship ship;
 ```
-Workflow:  idea ──► fab-kit ──► wt ──► run-kit
-           (backlog) (pipeline) (worktrees) (tmux dashboard)
 
-Helpers:   hop  · cross-repo navigation
-           tu   · cost tracking
-           shll · install/update glue
+**The loop:** `idea` captures it · `fab-kit` turns it into a spec the AI can't fudge · `wt` spins up an isolated worktree per change so N agents work in parallel without conflicts · `run-kit` gives you one browser tab to watch them all (mobile-friendly via Tailscale).
+
+<details>
+<summary>The full picture — how <code>hop</code> and <code>tu</code> wrap the loop</summary>
+
+```mermaid
+flowchart LR
+    hop["🧭 hop<br/><sub>cd between worktrees / repos</sub>"] -.->|navigate| loop[["♻️ the loop above"]]
+    loop -.->|tokens| tu["💸 tu<br/><sub>token + cost meter</sub>"]
+
+    classDef ambient fill:#1e1b4b,stroke:#a78bfa,color:#ede9fe;
+    classDef loopnode fill:#1f2937,stroke:#60a5fa,color:#f3f4f6;
+    class hop,tu ambient;
+    class loop loopnode;
 ```
 
-You capture an idea with `idea`, turn it into a structured change with `fab-kit`, isolate it in a `wt` worktree so you can run several in parallel, watch them all from `run-kit`'s browser dashboard, `hop` between repos when the work crosses boundaries, and check what it's costing you with `tu`. `shll` keeps everything installed and updated.
+**Wrapping it:** `hop` jumps you into any worktree (or across repos) in one keystroke · `tu` tracks what all those parallel agents are costing you in tokens · `shll` keeps everything installed and updated.
+
+</details>
 
 ### Tools
 
