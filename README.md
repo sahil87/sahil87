@@ -28,11 +28,11 @@ One idea fans out into many parallel agent sessions — then converges into a si
 
 ```mermaid
 flowchart TB
-    idea["idea<br/><sub>backlog</sub>"] --> fab["fab-kit<br/><sub>spec + plan</sub>"]
+    idea["idea"] --> fab["fab-kit"]
     fab --> w1["wt + agent #1"]
     fab --> w2["wt + agent #2"]
     fab --> w3["wt + agent #3"]
-    w1 --> rk["run-kit<br/><sub>tmux dashboard</sub>"]
+    w1 --> rk["run-kit"]
     w2 --> rk
     w3 --> rk
     rk --> ship(["ship"])
@@ -52,8 +52,8 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    hop["hop<br/><sub>cd between worktrees / repos</sub>"] -.->|navigate| loop[["the loop above"]]
-    loop -.->|tokens| tu["tu<br/><sub>token + cost meter</sub>"]
+    hop["hop"] -.->|navigate| loop[["the loop above"]]
+    loop -.->|tokens| tu["tu"]
 
     classDef ambient stroke:#a855f7,stroke-width:2px;
     classDef loopnode stroke:#3b82f6,stroke-width:2px;
