@@ -69,11 +69,11 @@ flowchart TB
 
 | Tool | One-liner |
 |------|-----------|
+| [**idea**](https://github.com/sahil87/idea) | Plain-Markdown backlog (`fab/backlog.md`) — worktree-aware, queryable from the CLI, feeds `/fab-new`. |
+| [**hop**](https://github.com/sahil87/hop) | Fuzzy-nav, batch-git, and run-anything-inside-any-repo from one `hop.yaml` config. |
 | [**fab-kit**](https://github.com/sahil87/fab-kit) | 7-stage pipeline that forces AI agents to plan before they code. Works with Claude Code, Codex, Cursor, Windsurf. |
 | [**wt**](https://github.com/sahil87/wt) | Opinionated `git worktree` wrapper — one worktree per change, one AI session per worktree, zero conflicts. |
-| [**idea**](https://github.com/sahil87/idea) | Plain-Markdown backlog (`fab/backlog.md`) — worktree-aware, queryable from the CLI, feeds `/fab-new`. |
 | [**run-kit**](https://github.com/sahil87/run-kit) | Browser dashboard for tmux + Claude Code workspaces. Mobile-friendly via Tailscale. |
-| [**hop**](https://github.com/sahil87/hop) | Fuzzy-nav, batch-git, and run-anything-inside-any-repo from one `hop.yaml` config. |
 | [**tu**](https://github.com/sahil87/tu) | Token/cost tracker for Claude Code, Codex, OpenCode. Multi-machine sync, live watch mode. |
 | [**shll**](https://github.com/sahil87/shll) | Meta-CLI — `shll install / update / shell-install` to wire and maintain the whole toolkit. |
 
