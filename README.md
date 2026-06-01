@@ -14,8 +14,8 @@ No SDK, no vendor lock-in, no opinions you can't override. Used daily at Noon.
 brew install sahil87/tap/all
 ```
 
-**Full toolkit, diagrams, and docs → [ai.shll.in](https://ai.shll.in)**
+**Full toolkit, diagrams, and docs → [shll.ai](https://shll.ai)**
 
 ### Find me
 
-[LinkedIn](https://in.linkedin.com/in/ahujasahil) · [X](https://x.com/_sahilahuja) · [Discord](https://discord.gg/32XHh5mJYn) · [ai.shll.in](https://ai.shll.in)
+[LinkedIn](https://in.linkedin.com/in/ahujasahil) · [X](https://x.com/_sahilahuja) · [Discord](https://discord.gg/32XHh5mJYn) · [shll.ai](https://shll.ai)
