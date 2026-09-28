@@ -18,13 +18,13 @@ curl -fsSL https://shll.ai/install | sh
 
 | Tool | What it does | Docs | Repo |
 |------|--------------|------|------|
-| `idea` | Plain-Markdown backlog tracker, worktree-aware | [docs](https://shll.ai/idea) | [sahil87/idea](https://github.com/sahil87/idea) |
-| `hop` | Fuzzy-nav, batch-git, run-anywhere across repos | [docs](https://shll.ai/hop) | [sahil87/hop](https://github.com/sahil87/hop) |
-| `fab-kit` | 7-stage pipeline that makes AI agents plan first | [docs](https://shll.ai/fab-kit) | [sahil87/fab-kit](https://github.com/sahil87/fab-kit) |
-| `wt` | Opinionated git-worktree wrapper | [docs](https://shll.ai/wt) | [sahil87/wt](https://github.com/sahil87/wt) |
-| HexoKit | Browser dashboard for tmux + Claude Code agents | [docs](https://shll.ai/run-kit) | [sahil87/run-kit](https://github.com/sahil87/run-kit) |
-| `tu` | Token/cost tracker for AI coding tools | [docs](https://shll.ai/tu) | [sahil87/tu](https://github.com/sahil87/tu) |
-| `shll` | Meta-CLI to install & wire the whole toolkit | [docs](https://shll.ai/shll) | [sahil87/shll](https://github.com/sahil87/shll) |
+| `HexoKit` | Browser dashboard for tmux + Claude Code agents | [docs](https://hexokit.com/docs) | [sahil87/hexokit](https://github.com/sahil87/hexokit) |
+| `wt` | Opinionated git-worktree wrapper | [docs](https://hexokit.com/wt) | [sahil87/wt](https://github.com/sahil87/wt) |
+| `idea` | Plain-Markdown backlog tracker, worktree-aware | [docs](https://hexokit.com/idea) | [sahil87/idea](https://github.com/sahil87/idea) |
+| `hop` | Fuzzy-nav, batch-git, run-anywhere across repos | [docs](https://hexokit.com/hop) | [sahil87/hop](https://github.com/sahil87/hop) |
+| `fab-kit` | 7-stage pipeline that makes AI agents plan first | [docs](https://hexokit.com/fab-kit) | [sahil87/fab-kit](https://github.com/sahil87/fab-kit) |
+| `tu` | Token/cost tracker for AI coding tools | [docs](https://hexokit.com/tu) | [sahil87/tu](https://github.com/sahil87/tu) |
+| `shll` | Meta-CLI to install & wire the whole toolkit | [docs](https://hexokit.com/shll) | [sahil87/shll](https://github.com/sahil87/shll) |
 
 **Full toolkit, diagrams, and docs → [shll.ai](https://shll.ai)**
 
