@@ -22,7 +22,7 @@ curl -fsSL https://shll.ai/install | sh
 | `hop` | Fuzzy-nav, batch-git, run-anywhere across repos | [docs](https://shll.ai/hop) | [sahil87/hop](https://github.com/sahil87/hop) |
 | `fab-kit` | 7-stage pipeline that makes AI agents plan first | [docs](https://shll.ai/fab-kit) | [sahil87/fab-kit](https://github.com/sahil87/fab-kit) |
 | `wt` | Opinionated git-worktree wrapper | [docs](https://shll.ai/wt) | [sahil87/wt](https://github.com/sahil87/wt) |
-| HexoKit | Browser dashboard for tmux + Claude Code agents | [docs](https://shll.ai/run-kit) | [sahil87/run-kit](https://github.com/sahil87/run-kit) |
+| HexoKit | Browser dashboard for tmux + Claude Code agents | [docs](https://shll.ai/run-kit) | [sahil87/hexokit](https://github.com/sahil87/hexokit) |
 | `tu` | Token/cost tracker for AI coding tools | [docs](https://shll.ai/tu) | [sahil87/tu](https://github.com/sahil87/tu) |
 | `shll` | Meta-CLI to install & wire the whole toolkit | [docs](https://shll.ai/shll) | [sahil87/shll](https://github.com/sahil87/shll) |
 
